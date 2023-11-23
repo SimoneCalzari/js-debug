@@ -70,7 +70,7 @@ function printColorsNumber() {
     const colors = ['blue', 'red', 'yellow', 'green', 'black'];
     console.log(`Nella mia palette ci sono ${colors.length} colori!`);
 }
-printColorsNumber();
+printColorsNumber(); 
 
 
 

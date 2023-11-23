@@ -20,7 +20,7 @@
 2- Non sono presenti errori di sintassi
 3- Si, la condizione per ciclare impedisce al ciclo di iniziare, al primo passo avrò indice 0 e non rispetta la condizione di essere maggiore di 5
 */
-console.log('ESERCIZIO 1 CORRETTO');
+// console.log('ESERCIZIO 1 CORRETTO');
 // VERSIONE CORRETTA
 for (let i = 0; i < 5; i++) {
     console.log(i);
@@ -43,7 +43,7 @@ console.log(' ');
 2- Non sono presenti errori di sintassi
 3- Si, la condizione nell if utilizza un operatore di assegnazione al posto di uno booleano di uguglianza
 */
-console.log('ESERCIZIO 2 CORRETTO');
+// console.log('ESERCIZIO 2 CORRETTO');
 // VERSIONE CORRETTA
 function addIfEven(num) {
     if (num % 2 === 0) {
@@ -72,7 +72,7 @@ console.log(' ');
 2- Si, all'interno della condizioni del ciclo for dichiarazione indice, condizione e incremento indice vanno separate con ; e non con ,
 3- Non sono presenti errori di logica
 */
-console.log('ESERCIZIO 3 CORRETTO');
+// console.log('ESERCIZIO 3 CORRETTO');
 // VERSIONE CORRETTA
 function loopToFive() {
     for (let i = 0; i < 5; i++) {
@@ -86,7 +86,7 @@ console.log(' ');
 
 
 
-// // ESERCIZIO 4 (suggerimento: ci sono 7 errori)
+// ESERCIZIO 4 (suggerimento: ci sono 7 errori)
 // function displayEvenNumbers() {
 //     let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
 //     let evenNumbers = [];
@@ -110,8 +110,8 @@ console.log(' ');
     - il returno evenNumbers va fuori dal ciclo for altrimenti al primo passo si esce dalla funzione mentre invece deve essere l'ultimo elemento prima della chiusura della funzione
     - se voglio vedere il return della funzione devo salvarlo in una variabile e poi fare un console.log di quella variabile
 */
-console.log('ESERCIZIO 4 CORRETTO');
-//VERSIONE CORRETTA
+// console.log('ESERCIZIO 4 CORRETTO');
+// VERSIONE CORRETTA
 function displayEvenNumbers() {
     let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
     let evenNumbers = [];
